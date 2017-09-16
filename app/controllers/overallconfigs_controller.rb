@@ -15,5 +15,6 @@ class OverallconfigsController < ApplicationController
 
   end
   def show
+    @musictitle = MusicTitle.find(params[:id])
   end
 end
