@@ -7,6 +7,7 @@ class OverallconfigsController < ApplicationController
 
   def category
    @albumname = AlbumName.where('artistname_id = ?', params[:id])
+   @artistname = ArtistName.find(params[:id])
   end
   
   def musictitle
