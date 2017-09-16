@@ -1,0 +1,7 @@
+<h1>＿＿のアルバム一覧</h1>
+<p>
+<% @albumname.each do |a| %>
+  <a href="/musictitle/<%= a.id %>"><%= a.name %></a>
+<hr>
+<% end %>
+</p>
