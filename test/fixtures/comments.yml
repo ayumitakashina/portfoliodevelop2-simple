@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  point: 1
+  overallconfig_id: 1
+  musictitle_id: 1
+  comment: MyText
+
+two:
+  point: 1
+  overallconfig_id: 1
+  musictitle_id: 1
+  comment: MyText
